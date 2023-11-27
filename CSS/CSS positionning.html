@@ -1,0 +1,43 @@
+<!-- There re 4 types of css positioning:
+   1. static positioning : this is the default positioning 
+   2.relative positioning : position relative to the default position
+   3.absolute positioning : position relative to nearest posiitoned ancestorsor top left corner of webpage
+   Z-index : which one goes on top of which one
+   4.Fixed positioning : position relative to the top-left corner of the window -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    .red-circle {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      border-radius: 50%;
+      position: absolute;
+      top: 150px;
+      left: 250px;
+    }
+    .blue-box
+    {
+      background-color: blue;
+      width: 500px;
+      height: 300px;
+      position: relative;
+      top: 200px;
+      left: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+  </div>
+
+</body>
+
+</html>
